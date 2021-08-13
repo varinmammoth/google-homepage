@@ -1,8 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+
 .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    grid-area: main;
 
 }
 
@@ -48,5 +62,56 @@
 
 #searchbar:focus {
     box-shadow: none;
+    outline: none;
 
+}
+
+.buttons {
+    margin: 40px 4px 20px 4px;
+    background-color: rgb(247, 241, 241);
+    padding: 10px 10px 10px 10px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: solid;
+    border-color: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.buttons:hover {
+    background-color: rgb(235, 229, 229);
+    cursor: pointer;
+    border: solid;
+    border-color: rgb(180, 178, 178);
+    border-width: 1px;
+}
+
+.buttons:active {
+    color:rgb(29, 28, 28);
+}
+
+.nav-div {
+    background-color: rgb(245, 243, 243);
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.nav-links {
+    color:rgb(59, 59, 59);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+.nav-links:hover{
+    text-decoration: underline;
+}
+
+.top-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
