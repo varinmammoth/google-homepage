@@ -1,0 +1,136 @@
+.section-A {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.section-B {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+    margin-left: 180px;
+    margin-right: 0px;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 870px;
+    margin: 30px 0px 30px 0px;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 140px;
+    margin: 30px 20px 30px 0px;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.search-border {
+    border-style: solid;
+    border-color: rgb(197, 195, 195);
+    border-radius: 30px;
+    border-width: 1px;
+    width: 630px;
+    height: 38px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#searchbar {
+    border: none;
+    height: 35px;
+    width: 480px;
+    font-size: 30px;
+    background-color: transparent;
+    color: rgb(180, 178, 178);
+    font-size: 20px;
+}
+
+#searchbar:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.buttons {
+    color: rgb(116, 114, 114);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 28px !important;
+}
+
+.buttons:hover{
+    color: rgb(59, 58, 58);
+    cursor: pointer;
+}
+
+.profile {
+    color: rgb(116, 114, 114);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 36px !important;
+}
+
+.profile:hover{
+    color: rgb(59, 58, 58);
+    cursor: pointer;
+}
+
+.menu-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+.menu-button a{
+    color: rgb(116, 114, 114);
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.menu-button:hover {
+    color: rgb(59, 58, 58) !important;
+    text-decoration: none;
+}
+
+.menu-button-icon {
+    color: rgb(116, 114, 114);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 25px !important;
+}
+
+
