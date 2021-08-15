@@ -216,20 +216,6 @@
     text-decoration: underline;
 }
 
-.also-ask-body {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 7px 0px 7px 0px;
-    margin: 0px 0px 0px 0px;
-}
-
-.also-ask-body p {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .also-ask {
     display: flex;
     flex-direction: column;
@@ -253,3 +239,27 @@
     height: 0.5px;
     background-color: rgb(210, 210, 214);
 }
+
+.also-ask-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0px 7px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.also-ask-body p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.also-ask-icon{
+    color: rgb(129, 128, 128);
+}
+
+.also-ask-icon:hover {
+    color: rgb(41, 40, 40);
+    cursor: pointer;
+}
+
