@@ -138,7 +138,7 @@
     margin-left: 180px;
     width: 600px;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 22px;
 }
 
 .search-result a {
@@ -175,6 +175,8 @@
     margin-left: 160px;
     padding-left: 20px;
     padding-right: 10px;
+    padding-bottom: 14px;
+    margin-bottom: 25px;
 }
 
 .also-search p {
@@ -194,4 +196,60 @@
     font-size: 20px !important; 
     color: rgb(163, 162, 162);
     cursor: pointer;
+}
+
+.also-search-body {
+    width: 66%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.also-search-body a {
+    text-decoration: none;
+    color: rgb(30, 74, 196);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.also-search-body a:hover {
+    text-decoration: underline;
+}
+
+.also-ask-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0px 7px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.also-ask-body p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.also-ask {
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    margin-left: 180px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color: rgb(58, 57, 57);
+}
+
+.also-ask h1 {
+    margin: 0px 0px 7px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 150;
+}
+
+.also-ask hr {
+    margin: 0;
+    border: none;
+    height: 0.5px;
+    background-color: rgb(210, 210, 214);
 }
